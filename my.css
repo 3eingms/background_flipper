@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    text-transform:uppercase;
+    background-color: #000000;
+    height: 50px;
+    padding: 10px;
+    box-shadow: black 1px 1px 14px -4px;
+    color: white;
+}
+nav h1{
+    letter-spacing: 4px;
+    background: #005AA7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -mo-text-fill-color: transparent;
+}
+
+.bg-color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin: 10rem auto 0 auto;
+    border-radius: 4px;
+}
+
+button{
+    text-transform: uppercase;
+    border: 2px solid black;
+    background-color: transparent;
+   display: block;
+   margin:  3rem auto 0 auto;
+   padding: 5px 12px;
+   cursor: pointer;
+   border-radius: 4px;
+   font-weight: bolder;
+   word-spacing: 5px;
+   transition: 0.5s ease;
+}
+button:hover{
+    box-shadow: black 1px 1px 14px -4px;
+    transition: 0.5s ease;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+span{
+    color: #339acb;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+i{
+    background: #3494E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+-webkit-background-clip: text;
+-moz-background-clip: text;
+-webkit-text-fill-color: transparent;
+-mo-text-fill-color: transparent;
+}
